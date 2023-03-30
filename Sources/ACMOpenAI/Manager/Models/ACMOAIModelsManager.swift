@@ -1,12 +1,12 @@
 //
-//  ModelsManager.swift
+//  ACMOAIModelsManager.swift
 //
 
 import ACMNetworking
 
-public final class ModelsManager: BaseAPIManager {}
+public final class ACMOAIModelsManager: BaseAPIManager {}
 
-public extension ModelsManager {
+public extension ACMOAIModelsManager {
     func list(onSuccess: ModelsCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
         let endpoint = endpoint.set(path: ModelsRoute.list)
             .build()
@@ -19,7 +19,7 @@ public extension ModelsManager {
     }
 }
 
-public extension ModelsManager {
+public extension ACMOAIModelsManager {
     func retrieve(model: String, onSuccess: ModelsCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
         let endpoint = endpoint.set(path: ModelsRoute.retrieve)
             .set(path: model)
