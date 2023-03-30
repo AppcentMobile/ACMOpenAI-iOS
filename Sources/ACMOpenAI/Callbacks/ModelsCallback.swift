@@ -5,6 +5,6 @@
 public struct ModelsCallback {}
 
 public extension ModelsCallback {
-    typealias List = ((String?) -> Void)?
-    typealias Retrieve = ((String?) -> Void)?
+    typealias List = ((ACMOAIModelsResponse.List?) -> Void)?
+    typealias Retrieve = ((ACMOAIModelsResponse.Retrieve?) -> Void)?
 }
