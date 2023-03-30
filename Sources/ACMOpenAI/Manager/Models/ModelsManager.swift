@@ -8,7 +8,7 @@ public final class ModelsManager: BaseAPIManager {}
 
 public extension ModelsManager {
     func list(onSuccess: ModelsCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
-        let endpoint = endpoint.set(path: "v1/models")
+        let endpoint = endpoint.set(path: ModelsRoute.list)
             .build()
 
         network.request(to: endpoint) { (response: ACMOAIModelsResponse.List) in
@@ -21,7 +21,7 @@ public extension ModelsManager {
 
 public extension ModelsManager {
     func retrieve(model: String, onSuccess: ModelsCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
-        let endpoint = endpoint.set(path: "v1/models")
+        let endpoint = endpoint.set(path: ModelsRoute.retrieve)
             .set(path: model)
             .build()
 
