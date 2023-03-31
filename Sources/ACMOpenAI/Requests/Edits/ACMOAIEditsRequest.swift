@@ -2,7 +2,7 @@
 //  ACMOAIEditRequest.swift
 //
 
-public struct ACMOAIEditRequest: Codable {
+public struct ACMOAIEditRequest {
     public var model: String
     public var input: String?
     public var instruction: String
