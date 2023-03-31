@@ -1,28 +1,18 @@
 //
-//  ACMOAICompletionsManager.swift
+//  ACMOAIChatManager.swift
 //
 
 import ACMNetworking
 
-public final class ACMOAICompletionsManager: BaseAPIManager {}
+public class ACMOAIChatManager: BaseAPIManager {}
 
-public extension ACMOAICompletionsManager {
-    func create(request: ACMOAICompletionsRequest, onSuccess: CompletionsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: CompletionsRoute.create)
+public extension ACMOAIChatManager {
+    #warning("BETA: https://platform.openai.com/docs/api-reference/chat")
+    func create(request: ACMOAIChatRequest, onSuccess: ChatCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+        var to = endpoint.set(path: ChatRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))
-
-        if let prompt = request.prompt {
-            to = to.add(param: ACMBodyModel(key: "prompt", value: prompt))
-        }
-
-        if let suffix = request.suffix {
-            to = to.add(param: ACMBodyModel(key: "suffix", value: suffix))
-        }
-
-        if let max_tokens = request.max_tokens {
-            to = to.add(param: ACMBodyModel(key: "max_tokens", value: max_tokens))
-        }
+            .add(param: ACMBodyModel(key: "messages", value: request.messages))
 
         if let temperature = request.temperature {
             to = to.add(param: ACMBodyModel(key: "temperature", value: temperature))
@@ -40,16 +30,12 @@ public extension ACMOAICompletionsManager {
             to = to.add(param: ACMBodyModel(key: "stream", value: stream))
         }
 
-        if let logprobs = request.logprobs {
-            to = to.add(param: ACMBodyModel(key: "logprobs", value: logprobs))
-        }
-
-        if let echo = request.echo {
-            to = to.add(param: ACMBodyModel(key: "echo", value: echo))
-        }
-
         if let stop = request.stop {
             to = to.add(param: ACMBodyModel(key: "stop", value: stop))
+        }
+
+        if let max_tokens = request.max_tokens {
+            to = to.add(param: ACMBodyModel(key: "max_tokens", value: max_tokens))
         }
 
         if let presence_penalty = request.presence_penalty {
@@ -60,10 +46,6 @@ public extension ACMOAICompletionsManager {
             to = to.add(param: ACMBodyModel(key: "frequency_penalty", value: frequency_penalty))
         }
 
-        if let best_of = request.best_of {
-            to = to.add(param: ACMBodyModel(key: "best_of", value: best_of))
-        }
-
         if let logit_bias = request.logit_bias {
             to = to.add(param: ACMBodyModel(key: "logit_bias", value: logit_bias))
         }
@@ -72,7 +54,7 @@ public extension ACMOAICompletionsManager {
             to = to.add(param: ACMBodyModel(key: "user", value: user))
         }
 
-        network.request(to: to.build()) { (response: ACMOAICompletionsResponse.Create) in
+        network.request(to: to.build()) { (response: ACMOAIChatResponse.Create) in
             onSuccess?(response)
         } onError: { error in
             onError?(error)
