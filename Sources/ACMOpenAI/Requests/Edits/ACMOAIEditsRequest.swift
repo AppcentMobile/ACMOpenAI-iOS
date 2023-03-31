@@ -10,7 +10,7 @@ public struct ACMOAIEditRequest {
     public var temperature: Double?
     public var top_p: Double?
 
-    init(model: String, input: String? = nil, instruction: String, n: Int? = nil, temperature: Double? = nil, top_p: Double? = nil) {
+    public init(model: String, input: String? = nil, instruction: String, n: Int? = nil, temperature: Double? = nil, top_p: Double? = nil) {
         self.model = model
         self.input = input
         self.instruction = instruction
