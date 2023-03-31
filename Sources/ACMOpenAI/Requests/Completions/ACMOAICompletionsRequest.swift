@@ -3,20 +3,20 @@
 //
 
 public struct ACMOAICompletionsRequest: Codable {
-    var model: String
-    var prompt: [String]?
-    var suffix: String?
-    var max_tokens: Int?
-    var temperature: Double?
-    var top_p: Double?
-    var n: Int?
-    var stream: Bool?
-    var logprobs: Int?
-    var echo: Bool?
-    var stop: String?
-    var presence_penalty: Double?
-    var frequency_penalty: Double?
-    var best_of: Int?
-    var logit_bias: [String: Int]?
-    var user: String?
+    public var model: String
+    public var prompt: [String]?
+    public var suffix: String?
+    public var max_tokens: Int?
+    public var temperature: Double?
+    public var top_p: Double?
+    public var n: Int?
+    public var stream: Bool?
+    public var logprobs: Int?
+    public var echo: Bool?
+    public var stop: String?
+    public var presence_penalty: Double?
+    public var frequency_penalty: Double?
+    public var best_of: Int?
+    public var logit_bias: [String: Int]?
+    public var user: String?
 }
