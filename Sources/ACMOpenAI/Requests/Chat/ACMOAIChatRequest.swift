@@ -2,7 +2,7 @@
 //  ACMOAIChatRequest.swift
 //
 
-public struct ACMOAIChatRequest: Codable {
+public struct ACMOAIChatRequest {
     public var model: String
     public var messages: [String]
     public var temperature: Double?

@@ -2,7 +2,7 @@
 //  ACMOAICompletionsRequest.swift
 //
 
-public struct ACMOAICompletionsRequest: Codable {
+public struct ACMOAICompletionsRequest {
     public var model: String
     public var prompt: [String]?
     public var suffix: String?

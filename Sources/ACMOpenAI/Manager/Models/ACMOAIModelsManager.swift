@@ -20,8 +20,8 @@ public extension ACMOAIModelsManager {
 }
 
 public extension ACMOAIModelsManager {
-    func retrieve(model _: String, onSuccess: ModelsCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
-        let endpoint = endpoint.set(path: ModelsRoute.retrieve)
+    func retrieve(model: String, onSuccess: ModelsCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
+        let endpoint = endpoint.set(path: ACMPathModel(path: ModelsRoute.retrieve, value: model))
             .set(method: .get)
 
         network.request(to: endpoint.build()) { (response: ACMOAIModelsResponse.Retrieve) in
