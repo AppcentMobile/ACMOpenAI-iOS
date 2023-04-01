@@ -2,13 +2,15 @@
 //  ACMOAIImagesResponse.swift
 //
 
-public enum ACMOAIImagesResponse {
-    public struct Create: Codable {
+public enum ACMOAIImagesResponse {}
+
+public extension ACMOAIImagesResponse {
+    struct Create: Codable {
         public let created: Int?
         public let data: [CreateData]?
     }
 
-    public struct CreateData: Codable {
+    struct CreateData: Codable {
         public let url: String?
     }
 }
