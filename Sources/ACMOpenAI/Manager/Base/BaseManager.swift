@@ -23,6 +23,6 @@ public class BaseAPIManager: BaseManager {
             .config(type: ACMOpenAIPlistModel.self) else { return }
 
         endpoint = ACMEndpoint()
-            .add(authHeader: config.apiKey)
+            .add(authHeader: ACMAuthModel(type: .bearer, value: config.apiKey))
     }
 }
