@@ -11,7 +11,7 @@ public struct ACMOAIImagesCreateEditRequest {
     public var response_format: String?
     public var user: String?
 
-    init(image: String, mask: String? = nil, prompt: String, n: Int? = nil, size: String? = nil, response_format: String? = nil, user: String? = nil) {
+    public init(image: String, mask: String? = nil, prompt: String, n: Int? = nil, size: String? = nil, response_format: String? = nil, user: String? = nil) {
         self.image = image
         self.mask = mask
         self.prompt = prompt
