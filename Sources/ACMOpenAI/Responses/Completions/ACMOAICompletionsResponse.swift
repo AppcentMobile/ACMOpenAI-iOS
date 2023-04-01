@@ -2,8 +2,10 @@
 //  ACMOAICompletionsResponse.swift
 //
 
-public enum ACMOAICompletionsResponse {
-    public struct Create: Codable {
+public enum ACMOAICompletionsResponse {}
+
+public extension ACMOAICompletionsResponse {
+    struct Create: Codable {
         public let model: String?
         public let prompt: String?
         public let max_tokens: Int?

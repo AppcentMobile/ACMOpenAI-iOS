@@ -2,13 +2,15 @@
 //  ACMOAIModelsResponse.swift
 //
 
-public enum ACMOAIModelsResponse {
-    public struct List: Codable {
+public enum ACMOAIModelsResponse {}
+
+public extension ACMOAIModelsResponse {
+    struct List: Codable {
         public let data: [ListData]?
         public let object: String?
     }
 
-    public struct Retrieve: Codable {
+    struct Retrieve: Codable {
         let id: String?
         let object: String?
         let owned_by: String?
