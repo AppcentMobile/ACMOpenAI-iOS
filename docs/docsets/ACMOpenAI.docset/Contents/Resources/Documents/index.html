@@ -393,7 +393,7 @@
             
             <h1 id='acmopenai' class='heading'>ACMOpenAI</h1>
 
-<p>ACMOpenAI is a library that help developers to use Open AI Api easily.</p>
+<p>ACMOpenAI is a library that help developers to use Open AI API easily.</p>
 <h2 id='install' class='heading'>Install</h2>
 
 <p>Via Cocoapods</p>
@@ -414,19 +414,17 @@ isLogEnabled <span class="o">(</span>Bool<span class="o">)</span>
 apiKey <span class="o">(</span>String<span class="o">)</span>
 </code></pre></li>
 <li><p>Make request!</p>
-<pre class="highlight shell"><code>ACMOAIModelsManager<span class="o">()</span>.list <span class="o">{</span> <span class="o">(</span>response: ACMOAIModelsResponse.List<span class="o">)</span> <span class="k">in
-            </span>print<span class="o">(</span>response<span class="o">)</span>
-        <span class="o">}</span> onError: <span class="o">{</span> error <span class="k">in
-            </span>print<span class="o">(</span>error<span class="o">)</span>
-        <span class="o">}</span>
+<pre class="highlight shell"><code>ACMOpenAI<span class="o">()</span>.manager<span class="o">(</span>item: ACMOAIModelsManager.self<span class="o">)</span>
+.list <span class="o">{</span> <span class="o">(</span>response: ACMOAIModelsResponse.List<span class="o">)</span> <span class="k">in
+</span>print<span class="o">(</span>response<span class="o">)</span>
+<span class="o">}</span> onError: <span class="o">{</span> error <span class="k">in
+</span>print<span class="o">(</span>error<span class="o">)</span>
+<span class="o">}</span>
 </code></pre></li>
 </ul>
-<h2 id='example-project' class='heading'>Example Project</h2>
-
-<p>Coming Soon</p>
 <h2 id='documentation' class='heading'>Documentation</h2>
 
-<p>Coming Soon</p>
+<p><a href="https://acmoai-22632.web.app">https://acmoai-22632.web.app</a></p>
 <h2 id='license' class='heading'>License</h2>
 
 <ul>
