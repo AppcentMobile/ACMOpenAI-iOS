@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Choices Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Choices" class="dashAnchor"></a>
+    <a title="Choices Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html">ACMOpenAI 1.0.0 Docs</a> (0% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html">ACMOpenAI Reference</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        Choices Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIAudioManager.html">ACMOAIAudioManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIChatManager.html">ACMOAIChatManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAICompletionsManager.html">ACMOAICompletionsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIEditsManager.html">ACMOAIEditsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIEmbeddingsManager.html">ACMOAIEmbeddingsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIEnginesManager.html">ACMOAIEnginesManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIFilesManager.html">ACMOAIFilesManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIFineTunesManager.html">ACMOAIFineTunesManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIImagesManager.html">ACMOAIImagesManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIModelsManager.html">ACMOAIModelsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ACMOAIModerationsManager.html">ACMOAIModerationsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/BaseAPIManager.html">BaseAPIManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/BaseManager.html">BaseManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIAudioCreateRequest.html">ACMOAIAudioCreateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIAudioCreateRequest/Transcriptions.html">– Transcriptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIAudioCreateRequest/Translations.html">– Translations</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIAudioResponse.html">ACMOAIAudioResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIAudioResponse/CreateTranscriptions.html">– CreateTranscriptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIAudioResponse/CreateTranslations.html">– CreateTranslations</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIChatResponse.html">ACMOAIChatResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIChatResponse/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIChatResponse/Usage.html">– Usage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIChatResponse/Choices.html">– Choices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIChatResponse/Message.html">– Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAICompletionsResponse.html">ACMOAICompletionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAICompletionsResponse/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEditsResponse.html">ACMOAIEditsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEditsResponse/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEditsResponse/Choices.html">– Choices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEditsResponse/Usage.html">– Usage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEmbeddingsResponse.html">ACMOAIEmbeddingsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEmbeddingsResponse/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEmbeddingsResponse/CreateData.html">– CreateData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEmbeddingsResponse/CreateUsage.html">– CreateUsage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEnginesResponse.html">ACMOAIEnginesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEnginesResponse/List.html">– List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEnginesResponse.html#/s:9ACMOpenAI21ACMOAIEnginesResponseO8RetrieveC">– Retrieve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIEnginesResponse/EnginesData.html">– EnginesData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesRequest.html">ACMOAIFilesRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesRequest/Upload.html">– Upload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesRequest/Delete.html">– Delete</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesRequest/Retrieve.html">– Retrieve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesRequest/RetrieveContent.html">– RetrieveContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesResponse.html">ACMOAIFilesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesResponse.html#/s:9ACMOpenAI19ACMOAIFilesResponseO4ListV">– List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesResponse.html#/s:9ACMOpenAI19ACMOAIFilesResponseO8DataListV">– DataList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesResponse.html#/s:9ACMOpenAI19ACMOAIFilesResponseO6UploadV">– Upload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesResponse.html#/s:9ACMOpenAI19ACMOAIFilesResponseO6DeleteV">– Delete</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFilesResponse.html#/s:9ACMOpenAI19ACMOAIFilesResponseO8RetrieveV">– Retrieve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesRequest.html">ACMOAIFineTunesRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesRequest/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesRequest/Retrieve.html">– Retrieve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesRequest/Cancel.html">– Cancel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesRequest/ListEvents.html">– ListEvents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesRequest/Delete.html">– Delete</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html">ACMOAIFineTunesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO4BaseC">– Base</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO6CreateC">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO4ListV">– List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO8RetrieveC">– Retrieve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO6CancelC">– Cancel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO10ListEventsV">– ListEvents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO6DeleteV">– Delete</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO6EventsV">– Events</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO11HyperparamsV">– Hyperparams</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO11ResultFilesV">– ResultFiles</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO13TrainingFilesV">– TrainingFiles</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIFineTunesResponse.html#/s:9ACMOpenAI23ACMOAIFineTunesResponseO14ListEventsDataV">– ListEventsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse.html">ACMOAIImagesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse/CreateData.html">– CreateData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse/CreateVariation.html">– CreateVariation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse/CreateVariationData.html">– CreateVariationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse/CreateEdit.html">– CreateEdit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIImagesResponse/CreateEditData.html">– CreateEditData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModelsResponse.html">ACMOAIModelsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModelsResponse/List.html">– List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModelsResponse.html#/s:9ACMOpenAI20ACMOAIModelsResponseO8RetrieveV">– Retrieve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModelsResponse.html#/s:9ACMOpenAI20ACMOAIModelsResponseO8ListDataV">– ListData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModerationsResponse.html">ACMOAIModerationsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModerationsResponse/Create.html">– Create</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModerationsResponse/Results.html">– Results</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModerationsResponse/Categories.html">– Categories</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ACMOAIModerationsResponse/CategoryScores.html">– CategoryScores</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIChatRequest.html">ACMOAIChatRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAICompletionsRequest.html">ACMOAICompletionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIEditRequest.html">ACMOAIEditRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIEmbeddingsRequest.html">ACMOAIEmbeddingsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIEnginesRequest.html">ACMOAIEnginesRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIImagesCreateEditRequest.html">ACMOAIImagesCreateEditRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIImagesCreateRequest.html">ACMOAIImagesCreateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIImagesCreateVariationRequest.html">ACMOAIImagesCreateVariationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOAIModerationsRequest.html">ACMOAIModerationsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ACMOpenAI.html">ACMOpenAI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/AudioCallback.html">AudioCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ChatCallback.html">ChatCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/CompletionsCallback.html">CompletionsCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/EditsCallback.html">EditsCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/EmbeddingsCallback.html">EmbeddingsCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/EnginesCallback.html">EnginesCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/FilesCallback.html">FilesCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/FineTunesCallback.html">FineTunesCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ImagesCallback.html">ImagesCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ModelsCallback.html">ModelsCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ModerationsCallback.html">ModerationsCallback</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Choices</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Choices</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9ACMOpenAI19ACMOAIEditsResponseO7ChoicesV4textSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/text" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9ACMOpenAI19ACMOAIEditsResponseO7ChoicesV4textSSSgvp">text</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9ACMOpenAI19ACMOAIEditsResponseO7ChoicesV5indexSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/index" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9ACMOpenAI19ACMOAIEditsResponseO7ChoicesV5indexSiSgvp">index</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2023 <a class="link" href="https://github.com/AppcentMobile/ACMOpenAI-iOS" target="_blank" rel="external noopener">burak</a>. All rights reserved. (Last updated: 2023-04-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

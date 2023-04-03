@@ -1,0 +1,2896 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/ACMOpenAI.swift",
+      "line": 1,
+      "symbol": "ACMOpenAI",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/ACMOpenAI.swift",
+      "line": 2,
+      "symbol": "ACMOpenAI.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/ACMOpenAI.swift",
+      "line": 4,
+      "symbol": "ACMOpenAI.manager(item:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Audio/AudioCallback.swift",
+      "line": 5,
+      "symbol": "AudioCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Audio/AudioCallback.swift",
+      "line": 7,
+      "symbol": "AudioCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Audio/AudioCallback.swift",
+      "line": 8,
+      "symbol": "AudioCallback.CreateTranscriptions",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Audio/AudioCallback.swift",
+      "line": 9,
+      "symbol": "AudioCallback.CreateTranslations",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Chat/ChatCallback.swift",
+      "line": 5,
+      "symbol": "ChatCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Chat/ChatCallback.swift",
+      "line": 7,
+      "symbol": "ChatCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Chat/ChatCallback.swift",
+      "line": 8,
+      "symbol": "ChatCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Completions/CompletionsCallback.swift",
+      "line": 5,
+      "symbol": "CompletionsCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Completions/CompletionsCallback.swift",
+      "line": 7,
+      "symbol": "CompletionsCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Completions/CompletionsCallback.swift",
+      "line": 8,
+      "symbol": "CompletionsCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Edits/EditsCallback.swift",
+      "line": 5,
+      "symbol": "EditsCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Edits/EditsCallback.swift",
+      "line": 7,
+      "symbol": "EditsCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Edits/EditsCallback.swift",
+      "line": 8,
+      "symbol": "EditsCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Embeddings/EmbeddingsCallback.swift",
+      "line": 5,
+      "symbol": "EmbeddingsCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Embeddings/EmbeddingsCallback.swift",
+      "line": 7,
+      "symbol": "EmbeddingsCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Embeddings/EmbeddingsCallback.swift",
+      "line": 8,
+      "symbol": "EmbeddingsCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Engines/EnginesCallback.swift",
+      "line": 5,
+      "symbol": "EnginesCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Engines/EnginesCallback.swift",
+      "line": 7,
+      "symbol": "EnginesCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Engines/EnginesCallback.swift",
+      "line": 8,
+      "symbol": "EnginesCallback.List",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Engines/EnginesCallback.swift",
+      "line": 9,
+      "symbol": "EnginesCallback.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 5,
+      "symbol": "FilesCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 7,
+      "symbol": "FilesCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 8,
+      "symbol": "FilesCallback.List",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 9,
+      "symbol": "FilesCallback.Upload",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 10,
+      "symbol": "FilesCallback.Delete",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 11,
+      "symbol": "FilesCallback.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Files/FilesCallback.swift",
+      "line": 12,
+      "symbol": "FilesCallback.RetrieveContent",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 5,
+      "symbol": "FineTunesCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 7,
+      "symbol": "FineTunesCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 8,
+      "symbol": "FineTunesCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 9,
+      "symbol": "FineTunesCallback.List",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 10,
+      "symbol": "FineTunesCallback.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 11,
+      "symbol": "FineTunesCallback.Cancel",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 12,
+      "symbol": "FineTunesCallback.ListEvents",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/FineTunes/FineTunesCallback.swift",
+      "line": 13,
+      "symbol": "FineTunesCallback.Delete",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Images/ImagesCallback.swift",
+      "line": 6,
+      "symbol": "ImagesCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Images/ImagesCallback.swift",
+      "line": 8,
+      "symbol": "ImagesCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Images/ImagesCallback.swift",
+      "line": 9,
+      "symbol": "ImagesCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Images/ImagesCallback.swift",
+      "line": 10,
+      "symbol": "ImagesCallback.CreateEdit",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Images/ImagesCallback.swift",
+      "line": 11,
+      "symbol": "ImagesCallback.CreateVariation",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Models/ModelsCallback.swift",
+      "line": 5,
+      "symbol": "ModelsCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Models/ModelsCallback.swift",
+      "line": 7,
+      "symbol": "ModelsCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Models/ModelsCallback.swift",
+      "line": 8,
+      "symbol": "ModelsCallback.List",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Models/ModelsCallback.swift",
+      "line": 9,
+      "symbol": "ModelsCallback.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Moderations/ModerationsCallback.swift",
+      "line": 5,
+      "symbol": "ModerationsCallback",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Moderations/ModerationsCallback.swift",
+      "line": 7,
+      "symbol": "ModerationsCallback",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Callbacks/Moderations/ModerationsCallback.swift",
+      "line": 8,
+      "symbol": "ModerationsCallback.Create",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Audio/ACMOAIAudioManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIAudioManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Audio/ACMOAIAudioManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIAudioManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Audio/ACMOAIAudioManager.swift",
+      "line": 11,
+      "symbol": "ACMOAIAudioManager.createTranscriptions(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Audio/ACMOAIAudioManager.swift",
+      "line": 41,
+      "symbol": "ACMOAIAudioManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Audio/ACMOAIAudioManager.swift",
+      "line": 43,
+      "symbol": "ACMOAIAudioManager.createTranslations(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Base/BaseManager.swift",
+      "line": 8,
+      "symbol": "BaseManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Base/BaseManager.swift",
+      "line": 11,
+      "symbol": "BaseManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Base/BaseManager.swift",
+      "line": 16,
+      "symbol": "BaseAPIManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Base/BaseManager.swift",
+      "line": 19,
+      "symbol": "BaseAPIManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Chat/ACMOAIChatManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIChatManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Chat/ACMOAIChatManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIChatManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Chat/ACMOAIChatManager.swift",
+      "line": 11,
+      "symbol": "ACMOAIChatManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Completions/ACMOAICompletionsManager.swift",
+      "line": 7,
+      "symbol": "ACMOAICompletionsManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Completions/ACMOAICompletionsManager.swift",
+      "line": 9,
+      "symbol": "ACMOAICompletionsManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Completions/ACMOAICompletionsManager.swift",
+      "line": 10,
+      "symbol": "ACMOAICompletionsManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Edits/ACMOAIEditsManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIEditsManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Edits/ACMOAIEditsManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIEditsManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Edits/ACMOAIEditsManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIEditsManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Embeddings/ACMOAIEmbeddingsManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIEmbeddingsManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Embeddings/ACMOAIEmbeddingsManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIEmbeddingsManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Embeddings/ACMOAIEmbeddingsManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIEmbeddingsManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Engines/ACMOAIEnginesManager.swift",
+      "line": 8,
+      "symbol": "ACMOAIEnginesManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Engines/ACMOAIEnginesManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIEnginesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Engines/ACMOAIEnginesManager.swift",
+      "line": 11,
+      "symbol": "ACMOAIEnginesManager.list(onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Engines/ACMOAIEnginesManager.swift",
+      "line": 23,
+      "symbol": "ACMOAIEnginesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Engines/ACMOAIEnginesManager.swift",
+      "line": 24,
+      "symbol": "ACMOAIEnginesManager.retrieve(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIFilesManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIFilesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIFilesManager.list(onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 22,
+      "symbol": "ACMOAIFilesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 23,
+      "symbol": "ACMOAIFilesManager.upload(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 37,
+      "symbol": "ACMOAIFilesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 38,
+      "symbol": "ACMOAIFilesManager.delete(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 50,
+      "symbol": "ACMOAIFilesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 51,
+      "symbol": "ACMOAIFilesManager.retrieve(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 63,
+      "symbol": "ACMOAIFilesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Files/ACMOAIFilesManager.swift",
+      "line": 64,
+      "symbol": "ACMOAIFilesManager.retrieveContent(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIFineTunesManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 67,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 68,
+      "symbol": "ACMOAIFineTunesManager.list(onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 80,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 81,
+      "symbol": "ACMOAIFineTunesManager.retrieve(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 93,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 94,
+      "symbol": "ACMOAIFineTunesManager.cancel(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 106,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 107,
+      "symbol": "ACMOAIFineTunesManager.listEvents(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 123,
+      "symbol": "ACMOAIFineTunesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/FineTunes/ACMOAIFineTunesManager.swift",
+      "line": 124,
+      "symbol": "ACMOAIFineTunesManager.delete(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIImagesManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIImagesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 11,
+      "symbol": "ACMOAIImagesManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 40,
+      "symbol": "ACMOAIImagesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 42,
+      "symbol": "ACMOAIImagesManager.createEdit(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 76,
+      "symbol": "ACMOAIImagesManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Images/ACMOAIImagesManager.swift",
+      "line": 78,
+      "symbol": "ACMOAIImagesManager.createVariation(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Models/ACMOAIModelsManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIModelsManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Models/ACMOAIModelsManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIModelsManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Models/ACMOAIModelsManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIModelsManager.list(onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Models/ACMOAIModelsManager.swift",
+      "line": 22,
+      "symbol": "ACMOAIModelsManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Models/ACMOAIModelsManager.swift",
+      "line": 23,
+      "symbol": "ACMOAIModelsManager.retrieve(model:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Moderations/ACMOAIModerationsManager.swift",
+      "line": 7,
+      "symbol": "ACMOAIModerationsManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Moderations/ACMOAIModerationsManager.swift",
+      "line": 9,
+      "symbol": "ACMOAIModerationsManager",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Manager/Moderations/ACMOAIModerationsManager.swift",
+      "line": 10,
+      "symbol": "ACMOAIModerationsManager.create(request:onSuccess:onError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIAudioCreateRequest",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIAudioCreateRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.file",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.prompt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.response_format",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 13,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 14,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.language",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 16,
+      "symbol": "ACMOAIAudioCreateRequest.Transcriptions.init(file:model:prompt:response_format:temperature:language:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 27,
+      "symbol": "ACMOAIAudioCreateRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 28,
+      "symbol": "ACMOAIAudioCreateRequest.Translations",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 29,
+      "symbol": "ACMOAIAudioCreateRequest.Translations.file",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 30,
+      "symbol": "ACMOAIAudioCreateRequest.Translations.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 31,
+      "symbol": "ACMOAIAudioCreateRequest.Translations.prompt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 32,
+      "symbol": "ACMOAIAudioCreateRequest.Translations.response_format",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 33,
+      "symbol": "ACMOAIAudioCreateRequest.Translations.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Audio/ACMOAIAudioCreateRequest.swift",
+      "line": 35,
+      "symbol": "ACMOAIAudioCreateRequest.Translations.init(file:model:prompt:response_format:temperature:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIChatRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIChatRequest.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIChatRequest.messages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIChatRequest.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIChatRequest.top_p",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIChatRequest.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAIChatRequest.stream",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIChatRequest.stop",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 13,
+      "symbol": "ACMOAIChatRequest.max_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 14,
+      "symbol": "ACMOAIChatRequest.presence_penalty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 15,
+      "symbol": "ACMOAIChatRequest.frequency_penalty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 16,
+      "symbol": "ACMOAIChatRequest.logit_bias",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 17,
+      "symbol": "ACMOAIChatRequest.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMOAIChatRequest.swift",
+      "line": 19,
+      "symbol": "ACMOAIChatRequest.init(model:messages:temperature:top_p:n:stream:stop:max_tokens:presence_penalty:frequency_penalty:logit_bias:user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAICompletionsRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAICompletionsRequest.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAICompletionsRequest.prompt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAICompletionsRequest.suffix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAICompletionsRequest.max_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAICompletionsRequest.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAICompletionsRequest.top_p",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAICompletionsRequest.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 13,
+      "symbol": "ACMOAICompletionsRequest.stream",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 14,
+      "symbol": "ACMOAICompletionsRequest.logprobs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 15,
+      "symbol": "ACMOAICompletionsRequest.echo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 16,
+      "symbol": "ACMOAICompletionsRequest.stop",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 17,
+      "symbol": "ACMOAICompletionsRequest.presence_penalty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 18,
+      "symbol": "ACMOAICompletionsRequest.frequency_penalty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 19,
+      "symbol": "ACMOAICompletionsRequest.best_of",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 20,
+      "symbol": "ACMOAICompletionsRequest.logit_bias",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 21,
+      "symbol": "ACMOAICompletionsRequest.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Completions/ACMOAICompletionsRequest.swift",
+      "line": 23,
+      "symbol": "ACMOAICompletionsRequest.init(model:prompt:suffix:max_tokens:temperature:top_p:n:stream:logprobs:echo:stop:presence_penalty:frequency_penalty:best_of:logit_bias:user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIEditRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIEditRequest.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIEditRequest.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIEditRequest.instruction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIEditRequest.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIEditRequest.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAIEditRequest.top_p",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Edits/ACMOAIEditsRequest.swift",
+      "line": 13,
+      "symbol": "ACMOAIEditRequest.init(model:input:instruction:n:temperature:top_p:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Embeddings/ACMOAIEmbeddingsRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIEmbeddingsRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Embeddings/ACMOAIEmbeddingsRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIEmbeddingsRequest.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Embeddings/ACMOAIEmbeddingsRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIEmbeddingsRequest.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Embeddings/ACMOAIEmbeddingsRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIEmbeddingsRequest.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Embeddings/ACMOAIEmbeddingsRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIEmbeddingsRequest.init(model:input:user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Engines/ACMOAIEnginesRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIEnginesRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Engines/ACMOAIEnginesRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIEnginesRequest.engine_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIFilesRequest",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIFilesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIFilesRequest.Upload",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIFilesRequest.Upload.file",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIFilesRequest.Upload.purpose",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIFilesRequest.Upload.init(file:purpose:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 19,
+      "symbol": "ACMOAIFilesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 20,
+      "symbol": "ACMOAIFilesRequest.Delete",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 21,
+      "symbol": "ACMOAIFilesRequest.Delete.file_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 29,
+      "symbol": "ACMOAIFilesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 30,
+      "symbol": "ACMOAIFilesRequest.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 31,
+      "symbol": "ACMOAIFilesRequest.Retrieve.file_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 39,
+      "symbol": "ACMOAIFilesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 40,
+      "symbol": "ACMOAIFilesRequest.RetrieveContent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Files/ACMOAIFilesRequest.swift",
+      "line": 41,
+      "symbol": "ACMOAIFilesRequest.RetrieveContent.file_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIFineTunesRequest",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIFineTunesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIFineTunesRequest.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIFineTunesRequest.Create.training_file",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIFineTunesRequest.Create.validation_file",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAIFineTunesRequest.Create.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIFineTunesRequest.Create.n_epochs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 13,
+      "symbol": "ACMOAIFineTunesRequest.Create.batch_size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 14,
+      "symbol": "ACMOAIFineTunesRequest.Create.learning_rate_multiplier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 15,
+      "symbol": "ACMOAIFineTunesRequest.Create.prompt_loss_weight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 16,
+      "symbol": "ACMOAIFineTunesRequest.Create.compute_classification_metrics",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 17,
+      "symbol": "ACMOAIFineTunesRequest.Create.classification_n_classes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 18,
+      "symbol": "ACMOAIFineTunesRequest.Create.classification_positive_class",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 19,
+      "symbol": "ACMOAIFineTunesRequest.Create.classification_betas",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 20,
+      "symbol": "ACMOAIFineTunesRequest.Create.suffix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 39,
+      "symbol": "ACMOAIFineTunesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 40,
+      "symbol": "ACMOAIFineTunesRequest.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 41,
+      "symbol": "ACMOAIFineTunesRequest.Retrieve.fine_tune_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 49,
+      "symbol": "ACMOAIFineTunesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 50,
+      "symbol": "ACMOAIFineTunesRequest.Cancel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 51,
+      "symbol": "ACMOAIFineTunesRequest.Cancel.fine_tune_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 59,
+      "symbol": "ACMOAIFineTunesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 60,
+      "symbol": "ACMOAIFineTunesRequest.ListEvents",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 61,
+      "symbol": "ACMOAIFineTunesRequest.ListEvents.fine_tune_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 62,
+      "symbol": "ACMOAIFineTunesRequest.ListEvents.stream",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 71,
+      "symbol": "ACMOAIFineTunesRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 72,
+      "symbol": "ACMOAIFineTunesRequest.Delete",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/FineTunes/ACMOAIFineTunesRequest.swift",
+      "line": 73,
+      "symbol": "ACMOAIFineTunesRequest.Delete.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIImagesCreateEditRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIImagesCreateEditRequest.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIImagesCreateEditRequest.mask",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIImagesCreateEditRequest.prompt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIImagesCreateEditRequest.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIImagesCreateEditRequest.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAIImagesCreateEditRequest.response_format",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIImagesCreateEditRequest.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateEditRequest.swift",
+      "line": 14,
+      "symbol": "ACMOAIImagesCreateEditRequest.init(image:mask:prompt:n:size:response_format:user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIImagesCreateRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIImagesCreateRequest.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIImagesCreateRequest.mask",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIImagesCreateRequest.prompt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIImagesCreateRequest.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIImagesCreateRequest.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 11,
+      "symbol": "ACMOAIImagesCreateRequest.response_format",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIImagesCreateRequest.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateRequest.swift",
+      "line": 14,
+      "symbol": "ACMOAIImagesCreateRequest.init(image:mask:prompt:n:size:response_format:user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIImagesCreateVariationRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIImagesCreateVariationRequest.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIImagesCreateVariationRequest.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 8,
+      "symbol": "ACMOAIImagesCreateVariationRequest.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIImagesCreateVariationRequest.response_format",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 10,
+      "symbol": "ACMOAIImagesCreateVariationRequest.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Images/ACMOAIImagesCreateVariationRequest.swift",
+      "line": 12,
+      "symbol": "ACMOAIImagesCreateVariationRequest.init(image:n:size:response_format:user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Moderations/ACMOAIModerationsRequest.swift",
+      "line": 5,
+      "symbol": "ACMOAIModerationsRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Moderations/ACMOAIModerationsRequest.swift",
+      "line": 6,
+      "symbol": "ACMOAIModerationsRequest.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Moderations/ACMOAIModerationsRequest.swift",
+      "line": 7,
+      "symbol": "ACMOAIModerationsRequest.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Moderations/ACMOAIModerationsRequest.swift",
+      "line": 9,
+      "symbol": "ACMOAIModerationsRequest.init(input:model:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Audio/ACMOAIAudioResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIAudioResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Audio/ACMOAIAudioResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIAudioResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Audio/ACMOAIAudioResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIAudioResponse.CreateTranscriptions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Audio/ACMOAIAudioResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIAudioResponse.CreateTranscriptions.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Audio/ACMOAIAudioResponse.swift",
+      "line": 12,
+      "symbol": "ACMOAIAudioResponse.CreateTranslations",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Audio/ACMOAIAudioResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAIAudioResponse.CreateTranslations.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIChatResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIChatResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIChatResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIChatResponse.Create.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIChatResponse.Create.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 11,
+      "symbol": "ACMOAIChatResponse.Create.created",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 12,
+      "symbol": "ACMOAIChatResponse.Create.choices",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAIChatResponse.Create.usage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 16,
+      "symbol": "ACMOAIChatResponse.Usage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 17,
+      "symbol": "ACMOAIChatResponse.Usage.prompt_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 18,
+      "symbol": "ACMOAIChatResponse.Usage.completion_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 19,
+      "symbol": "ACMOAIChatResponse.Usage.total_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 22,
+      "symbol": "ACMOAIChatResponse.Choices",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 23,
+      "symbol": "ACMOAIChatResponse.Choices.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 24,
+      "symbol": "ACMOAIChatResponse.Choices.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 25,
+      "symbol": "ACMOAIChatResponse.Choices.finish_reason",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 28,
+      "symbol": "ACMOAIChatResponse.Message",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 29,
+      "symbol": "ACMOAIChatResponse.Message.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Chat/ACMOAIChatResponse.swift",
+      "line": 30,
+      "symbol": "ACMOAIChatResponse.Message.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAICompletionsResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAICompletionsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAICompletionsResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAICompletionsResponse.Create.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAICompletionsResponse.Create.prompt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 11,
+      "symbol": "ACMOAICompletionsResponse.Create.max_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 12,
+      "symbol": "ACMOAICompletionsResponse.Create.temperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAICompletionsResponse.Create.top_p",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 14,
+      "symbol": "ACMOAICompletionsResponse.Create.n",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 15,
+      "symbol": "ACMOAICompletionsResponse.Create.stream",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 16,
+      "symbol": "ACMOAICompletionsResponse.Create.logprobs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Completions/ACMOAICompletionsResponse.swift",
+      "line": 17,
+      "symbol": "ACMOAICompletionsResponse.Create.stop",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIEditsResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIEditsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIEditsResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIEditsResponse.Create.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIEditsResponse.Create.created",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 11,
+      "symbol": "ACMOAIEditsResponse.Create.choices",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 12,
+      "symbol": "ACMOAIEditsResponse.Create.usage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 15,
+      "symbol": "ACMOAIEditsResponse.Choices",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 16,
+      "symbol": "ACMOAIEditsResponse.Choices.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 17,
+      "symbol": "ACMOAIEditsResponse.Choices.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 20,
+      "symbol": "ACMOAIEditsResponse.Usage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 21,
+      "symbol": "ACMOAIEditsResponse.Usage.prompt_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 22,
+      "symbol": "ACMOAIEditsResponse.Usage.completion_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 23,
+      "symbol": "ACMOAIEditsResponse.Usage.total_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIEmbeddingsResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIEmbeddingsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIEmbeddingsResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIEmbeddingsResponse.Create.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIEmbeddingsResponse.Create.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 11,
+      "symbol": "ACMOAIEmbeddingsResponse.Create.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 12,
+      "symbol": "ACMOAIEmbeddingsResponse.Create.usage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 15,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 16,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateData.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 17,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateData.embedding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 18,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateData.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 21,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateUsage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 22,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateUsage.prompt_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Embeddings/ACMOAIEmbeddingsResponse.swift",
+      "line": 23,
+      "symbol": "ACMOAIEmbeddingsResponse.CreateUsage.total_tokens",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIEnginesResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIEnginesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIEnginesResponse.List",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIEnginesResponse.List.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIEnginesResponse.List.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAIEnginesResponse.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 15,
+      "symbol": "ACMOAIEnginesResponse.EnginesData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 16,
+      "symbol": "ACMOAIEnginesResponse.EnginesData.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 17,
+      "symbol": "ACMOAIEnginesResponse.EnginesData.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 18,
+      "symbol": "ACMOAIEnginesResponse.EnginesData.owner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Engines/ACMOAIEnginesResponse.swift",
+      "line": 19,
+      "symbol": "ACMOAIEnginesResponse.EnginesData.ready",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIFilesResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIFilesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIFilesResponse.List",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAIFilesResponse.DataList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 23,
+      "symbol": "ACMOAIFilesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 24,
+      "symbol": "ACMOAIFilesResponse.Upload",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 34,
+      "symbol": "ACMOAIFilesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 35,
+      "symbol": "ACMOAIFilesResponse.Delete",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 42,
+      "symbol": "ACMOAIFilesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Files/ACMOAIFilesResponse.swift",
+      "line": 43,
+      "symbol": "ACMOAIFilesResponse.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIFineTunesResponse.Base",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 24,
+      "symbol": "ACMOAIFineTunesResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 26,
+      "symbol": "ACMOAIFineTunesResponse.List",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 31,
+      "symbol": "ACMOAIFineTunesResponse.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 33,
+      "symbol": "ACMOAIFineTunesResponse.Cancel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 35,
+      "symbol": "ACMOAIFineTunesResponse.ListEvents",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 40,
+      "symbol": "ACMOAIFineTunesResponse.Delete",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 47,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 48,
+      "symbol": "ACMOAIFineTunesResponse.Events",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 56,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 57,
+      "symbol": "ACMOAIFineTunesResponse.Hyperparams",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 65,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 66,
+      "symbol": "ACMOAIFineTunesResponse.ResultFiles",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 76,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 77,
+      "symbol": "ACMOAIFineTunesResponse.TrainingFiles",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 87,
+      "symbol": "ACMOAIFineTunesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/FineTunes/ACMOAIFineTunesResponse.swift",
+      "line": 88,
+      "symbol": "ACMOAIFineTunesResponse.ListEventsData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIImagesResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIImagesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIImagesResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIImagesResponse.Create.created",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIImagesResponse.Create.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAIImagesResponse.CreateData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 14,
+      "symbol": "ACMOAIImagesResponse.CreateData.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 18,
+      "symbol": "ACMOAIImagesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 19,
+      "symbol": "ACMOAIImagesResponse.CreateVariation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 20,
+      "symbol": "ACMOAIImagesResponse.CreateVariation.created",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 21,
+      "symbol": "ACMOAIImagesResponse.CreateVariation.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 24,
+      "symbol": "ACMOAIImagesResponse.CreateVariationData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 25,
+      "symbol": "ACMOAIImagesResponse.CreateVariationData.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 29,
+      "symbol": "ACMOAIImagesResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 30,
+      "symbol": "ACMOAIImagesResponse.CreateEdit",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 31,
+      "symbol": "ACMOAIImagesResponse.CreateEdit.created",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 32,
+      "symbol": "ACMOAIImagesResponse.CreateEdit.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 35,
+      "symbol": "ACMOAIImagesResponse.CreateEditData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Images/ACMOAIImagesResponse.swift",
+      "line": 36,
+      "symbol": "ACMOAIImagesResponse.CreateEditData.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIModelsResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIModelsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIModelsResponse.List",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIModelsResponse.List.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIModelsResponse.List.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 13,
+      "symbol": "ACMOAIModelsResponse.Retrieve",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 20,
+      "symbol": "ACMOAIModelsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Models/ACMOAIModelsResponse.swift",
+      "line": 21,
+      "symbol": "ACMOAIModelsResponse.ListData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 5,
+      "symbol": "ACMOAIModerationsResponse",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 7,
+      "symbol": "ACMOAIModerationsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 8,
+      "symbol": "ACMOAIModerationsResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIModerationsResponse.Create.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 10,
+      "symbol": "ACMOAIModerationsResponse.Create.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 11,
+      "symbol": "ACMOAIModerationsResponse.Create.results",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 15,
+      "symbol": "ACMOAIModerationsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 16,
+      "symbol": "ACMOAIModerationsResponse.Results",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 17,
+      "symbol": "ACMOAIModerationsResponse.Results.categories",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 18,
+      "symbol": "ACMOAIModerationsResponse.Results.category_scores",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 19,
+      "symbol": "ACMOAIModerationsResponse.Results.flagged",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 23,
+      "symbol": "ACMOAIModerationsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 24,
+      "symbol": "ACMOAIModerationsResponse.Categories",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 25,
+      "symbol": "ACMOAIModerationsResponse.Categories.hate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 26,
+      "symbol": "ACMOAIModerationsResponse.Categories.hate_threatening",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 27,
+      "symbol": "ACMOAIModerationsResponse.Categories.self_harm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 28,
+      "symbol": "ACMOAIModerationsResponse.Categories.sexual",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 29,
+      "symbol": "ACMOAIModerationsResponse.Categories.sexual_minors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 30,
+      "symbol": "ACMOAIModerationsResponse.Categories.violence",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 31,
+      "symbol": "ACMOAIModerationsResponse.Categories.violence_graphic",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 46,
+      "symbol": "ACMOAIModerationsResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 47,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 48,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.hate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 49,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.hate_threatening",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 50,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.self_harm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 51,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.sexual",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 52,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.sexual_minors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 53,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.violence",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Moderations/ACMOAIModerationsResponse.swift",
+      "line": 54,
+      "symbol": "ACMOAIModerationsResponse.CategoryScores.violence_graphic",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/burak/Desktop/ios-libs/ACMOAI"
+}
