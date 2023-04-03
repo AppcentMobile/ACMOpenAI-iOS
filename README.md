@@ -27,11 +27,11 @@ apiKey (String)
 
 - Make request!
 ```bash
-ACMOAIModelsManager().list { (response: ACMOAIModelsResponse.List) in
-                print(response)
-            } onError: { error in
-                print(error)
-            }
+ACMOpenAI().manager(item: ACMOAIModelsManager.self).list { (response: ACMOAIModelsResponse.List) in
+    print(response)
+} onError: { error in
+    print(error)
+}
 ```
 
 ## Documentation
