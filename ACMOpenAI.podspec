@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.version      = "1.0.0"
     spec.summary      = "ACMOpenAI iOS Library"
     spec.description  = <<-DESC
-            ACMOpenAI is a library that help developers to use Open AI Api easily.
+            ACMOpenAI is a library that help developers to use Open AI API easily.
                      DESC
 
     spec.homepage     = "https://github.com/AppcentMobile/ACMOpenAI-iOS"  
