@@ -4,8 +4,6 @@
 name: Swift
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -20,3 +18,5 @@ jobs:
       run: swift build -v
     - name: Run tests
       run: swift test -v
+    - name: SwiftTest by SwiftActions
+      uses: SwiftActions/SwiftTest@0.2
