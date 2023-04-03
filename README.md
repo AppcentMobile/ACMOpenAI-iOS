@@ -41,6 +41,7 @@ ACMOpenAI().manager(item: ACMOAIModelsManager.self)
 
 ## Documentation
 
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](https://acmoai-22632.web.app "Go to project documentation")
 https://acmoai-22632.web.app
 
 ## License
