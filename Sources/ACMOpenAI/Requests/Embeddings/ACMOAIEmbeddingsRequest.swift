@@ -2,14 +2,24 @@
 //  ACMOAIEmbeddingsRequest.swift
 //
 
-public struct ACMOAIEmbeddingsRequest {
-    public var model: String
-    public var input: String
-    public var user: String?
+/// Request model for holding embedding endpoint
+public enum ACMOAIEmbeddingsRequest {}
 
-    public init(model: String, input: String, user: String? = nil) {
-        self.model = model
-        self.input = input
-        self.user = user
+public extension ACMOAIEmbeddingsRequest {
+    /// Request model for holding create
+    struct Create {
+        /// model: required*
+        public var model: String
+        /// input: optional
+        public var input: String
+        /// user: optional
+        public var user: String?
+
+        /// Init function for creating request
+        public init(model: String, input: String, user: String? = nil) {
+            self.model = model
+            self.input = input
+            self.user = user
+        }
     }
 }

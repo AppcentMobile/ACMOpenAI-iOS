@@ -4,10 +4,16 @@
 
 import ACMNetworking
 
+/// Embedding manager for calling embedding endpoints of Open AI
 public class ACMOAIEmbeddingsManager: BaseAPIManager {}
 
 public extension ACMOAIEmbeddingsManager {
-    func create(request: ACMOAIEmbeddingsRequest, onSuccess: EmbeddingsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Create embeddings based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIEmbeddingsRequest` Model of possible requests
+    ///
+    func create(request: ACMOAIEmbeddingsRequest.Create, onSuccess: EmbeddingsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: EmbeddingsRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))

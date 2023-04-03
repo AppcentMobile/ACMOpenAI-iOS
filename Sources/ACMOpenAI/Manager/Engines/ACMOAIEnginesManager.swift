@@ -5,9 +5,11 @@
 import ACMNetworking
 
 #warning("The Engines endpoints are deprecated. Please use their replacement, Models, instead. Learn more.")
+/// Engines manager for calling engines endpoints of Open AI
 public final class ACMOAIEnginesManager: BaseAPIManager {}
 
 public extension ACMOAIEnginesManager {
+    /// Create embeddings based on giving parameters and returns closure
     func list(onSuccess: EnginesCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: EnginesRoute.list)
             .set(method: .get)
@@ -21,7 +23,12 @@ public extension ACMOAIEnginesManager {
 }
 
 public extension ACMOAIEnginesManager {
-    func retrieve(request: ACMOAIEnginesRequest, onSuccess: EnginesCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Retrieves embedding based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIEnginesRequest` Model of possible requests
+    ///
+    func retrieve(request: ACMOAIEnginesRequest.Create, onSuccess: EnginesCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: EnginesRoute.retrieve, request.engine_id))
             .set(method: .get)
 

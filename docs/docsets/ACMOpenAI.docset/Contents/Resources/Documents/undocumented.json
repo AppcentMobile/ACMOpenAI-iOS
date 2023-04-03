@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 9,
+      "symbol": "ACMOAIEditsResponse.Create",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 20,
+      "symbol": "ACMOAIEditsResponse.Choices",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Responses/Edits/ACMOAIEditsResponse.swift",
+      "line": 27,
+      "symbol": "ACMOAIEditsResponse.Usage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/burak/Desktop/ios-libs/ACMOAI"
+}

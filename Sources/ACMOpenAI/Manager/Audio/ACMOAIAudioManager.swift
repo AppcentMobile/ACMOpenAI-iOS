@@ -4,10 +4,16 @@
 
 import ACMNetworking
 
+/// Audio manager for calling audio endpoints of Open AI
 public class ACMOAIAudioManager: BaseAPIManager {}
 
 public extension ACMOAIAudioManager {
     #warning("BETA: https://api.openai.com/v1/audio/transcriptions")
+    /// Create transcriptions based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIAudioCreateRequest.Transcriptions` Model of possible requests
+    ///
     func createTranscriptions(request: ACMOAIAudioCreateRequest.Transcriptions, onSuccess: AudioCallback.CreateTranscriptions, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: AudioRoute.Create.transcriptions)
             .set(method: .post)
@@ -40,6 +46,11 @@ public extension ACMOAIAudioManager {
 
 public extension ACMOAIAudioManager {
     #warning("BETA: https://api.openai.com/v1/audio/translations")
+    /// Create translations based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIAudioCreateRequest.Transcriptions` Model of possible requests
+    ///
     func createTranslations(request: ACMOAIAudioCreateRequest.Translations, onSuccess: AudioCallback.CreateTranslations, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: AudioRoute.Create.translations)
             .set(method: .post)

@@ -4,10 +4,16 @@
 
 import ACMNetworking
 
+/// Edits manager for calling edit endpoints of Open AI
 public class ACMOAIEditsManager: BaseAPIManager {}
 
 public extension ACMOAIEditsManager {
-    func create(request: ACMOAIEditRequest, onSuccess: EditsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Create edit based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIEditRequest` Model of possible requests
+    ///
+    func create(request: ACMOAIEditRequest.Create, onSuccess: EditsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: EditsRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))

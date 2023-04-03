@@ -4,9 +4,15 @@
 
 import ACMNetworking
 
+/// Fine tunes manager for calling fine tune endpoints of Open AI
 public final class ACMOAIFineTunesManager: BaseAPIManager {}
 
 public extension ACMOAIFineTunesManager {
+    /// Creates fine tune based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFineTunesRequest.Create` Model of possible requests
+    ///
     func create(request: ACMOAIFineTunesRequest.Create, onSuccess: FineTunesCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: FineTunesRoute.create)
             .set(method: .post)
@@ -65,6 +71,7 @@ public extension ACMOAIFineTunesManager {
 }
 
 public extension ACMOAIFineTunesManager {
+    /// List fine tunes based on giving parameters and returns closure
     func list(onSuccess: FineTunesCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: FineTunesRoute.list)
             .set(method: .get)
@@ -78,6 +85,11 @@ public extension ACMOAIFineTunesManager {
 }
 
 public extension ACMOAIFineTunesManager {
+    /// Retrieves fine tune based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFineTunesRequest.Retrieve` Model of possible requests
+    ///
     func retrieve(request: ACMOAIFineTunesRequest.Retrieve, onSuccess: FineTunesCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: FineTunesRoute.retrieve, request.fine_tune_id))
             .set(method: .get)
@@ -91,6 +103,11 @@ public extension ACMOAIFineTunesManager {
 }
 
 public extension ACMOAIFineTunesManager {
+    /// Cancels fine tune based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFineTunesRequest.Cancel` Model of possible requests
+    ///
     func cancel(request: ACMOAIFineTunesRequest.Cancel, onSuccess: FineTunesCallback.Cancel, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: FineTunesRoute.cancel, request.fine_tune_id))
             .set(method: .post)
@@ -104,6 +121,11 @@ public extension ACMOAIFineTunesManager {
 }
 
 public extension ACMOAIFineTunesManager {
+    /// Lists fine tune events based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFineTunesRequest.ListEvents` Model of possible requests
+    ///
     func listEvents(request: ACMOAIFineTunesRequest.ListEvents, onSuccess: FineTunesCallback.ListEvents, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: String(format: FineTunesRoute.listEvents, request.fine_tune_id))
             .set(method: .get)
@@ -121,6 +143,11 @@ public extension ACMOAIFineTunesManager {
 }
 
 public extension ACMOAIFineTunesManager {
+    /// Deletes fine tune based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFineTunesRequest.Delete` Model of possible requests
+    ///
     func delete(request: ACMOAIFineTunesRequest.Delete, onSuccess: FineTunesCallback.Delete, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: FineTunesRoute.delete, request.model))
             .set(method: .delete)

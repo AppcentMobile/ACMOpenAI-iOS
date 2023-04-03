@@ -4,11 +4,17 @@
 
 import ACMNetworking
 
+/// Image manager for calling images endpoints of Open AI
 public final class ACMOAIImagesManager: BaseAPIManager {}
 
 public extension ACMOAIImagesManager {
     #warning("BETA: https://api.openai.com/v1/images/generations")
-    func create(request: ACMOAIImagesCreateRequest, onSuccess: ImagesCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Creates image based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIImagesCreateRequest` Model of possible requests
+    ///
+    func create(request: ACMOAIImagesRequest.Create, onSuccess: ImagesCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: ImagesRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "prompt", value: request.prompt))
@@ -39,7 +45,12 @@ public extension ACMOAIImagesManager {
 
 public extension ACMOAIImagesManager {
     #warning("BETA: https://api.openai.com/v1/images/edits")
-    func createEdit(request: ACMOAIImagesCreateEditRequest, onSuccess: ImagesCallback.CreateEdit, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Creates edit image based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIImagesCreateEditRequest` Model of possible requests
+    ///
+    func createEdit(request: ACMOAIImagesRequest.CreateEdit, onSuccess: ImagesCallback.CreateEdit, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: ImagesRoute.createEdit)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "image", value: request.image))
@@ -75,7 +86,12 @@ public extension ACMOAIImagesManager {
 
 public extension ACMOAIImagesManager {
     #warning("BETA: https://api.openai.com/v1/images/variations")
-    func createVariation(request: ACMOAIImagesCreateVariationRequest, onSuccess: ImagesCallback.CreateVariation, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Creates variation image based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIImagesCreateVariationRequest` Model of possible requests
+    ///
+    func createVariation(request: ACMOAIImagesRequest.CreateVariation, onSuccess: ImagesCallback.CreateVariation, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: ImagesRoute.createVariation)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "image", value: request.image))

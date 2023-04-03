@@ -4,9 +4,11 @@
 
 import ACMNetworking
 
+/// Files manager for calling files endpoints of Open AI
 public class ACMOAIFilesManager: BaseAPIManager {}
 
 public extension ACMOAIFilesManager {
+    /// Lists files based on giving parameters and returns closure
     func list(onSuccess: FilesCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: FilesRoute.list)
             .set(method: .get)
@@ -20,6 +22,11 @@ public extension ACMOAIFilesManager {
 }
 
 public extension ACMOAIFilesManager {
+    /// Upload files based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFilesRequest.Upload` Model of possible requests
+    ///
     func upload(request: ACMOAIFilesRequest.Upload, onSuccess: FilesCallback.Upload, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: FilesRoute.upload)
             .set(method: .post)
@@ -35,6 +42,11 @@ public extension ACMOAIFilesManager {
 }
 
 public extension ACMOAIFilesManager {
+    /// Delete files based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFilesRequest.Delete` Model of possible requests
+    ///
     func delete(request: ACMOAIFilesRequest.Delete, onSuccess: FilesCallback.Delete, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: FilesRoute.delete, request.file_id))
             .set(method: .delete)
@@ -48,6 +60,11 @@ public extension ACMOAIFilesManager {
 }
 
 public extension ACMOAIFilesManager {
+    /// Retrieves files based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFilesRequest.Retrieve` Model of possible requests
+    ///
     func retrieve(request: ACMOAIFilesRequest.Retrieve, onSuccess: FilesCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: FilesRoute.retrieve, request.file_id))
             .set(method: .get)
@@ -61,6 +78,11 @@ public extension ACMOAIFilesManager {
 }
 
 public extension ACMOAIFilesManager {
+    /// Retrieves the contents of files based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIFilesRequest.RetrieveContent` Model of possible requests
+    ///
     func retrieveContent(request: ACMOAIFilesRequest.RetrieveContent, onSuccess: FilesCallback.RetrieveContent, onError: ACMGenericCallbacks.ErrorCallback) {
         let to = endpoint.set(path: String(format: FilesRoute.retrieveContent, request.file_id))
             .set(method: .get)
