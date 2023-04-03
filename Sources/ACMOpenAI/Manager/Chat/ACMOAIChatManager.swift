@@ -4,11 +4,17 @@
 
 import ACMNetworking
 
+/// Chat manager for calling audio endpoints of Open AI
 public class ACMOAIChatManager: BaseAPIManager {}
 
 public extension ACMOAIChatManager {
     #warning("BETA: https://platform.openai.com/docs/api-reference/chat")
-    func create(request: ACMOAIChatRequest, onSuccess: ChatCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Create chat based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIChatRequest` Model of possible requests
+    ///
+    func create(request: ACMOAIChatRequest.Create, onSuccess: ChatCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: ChatRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))

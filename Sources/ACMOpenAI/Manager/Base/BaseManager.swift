@@ -5,17 +5,21 @@
 import ACMNetworking
 import Foundation
 
+/// Base manager for calling endpoints of Open AI
 public class BaseManager {
     var network: ACMNetworking!
 
+    /// Init method for creating base networking model
     public required init() {
         network = ACMNetworking()
     }
 }
 
+/// Base api manager for calling endpoints of Open AI
 public class BaseAPIManager: BaseManager {
     var endpoint: ACMEndpoint!
 
+    /// Init method for creating base endpoint model
     public required init() {
         super.init()
 

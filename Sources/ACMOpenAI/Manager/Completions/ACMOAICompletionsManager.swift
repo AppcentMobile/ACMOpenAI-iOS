@@ -4,10 +4,16 @@
 
 import ACMNetworking
 
+/// Completions manager for completion endpoints of Open AI
 public final class ACMOAICompletionsManager: BaseAPIManager {}
 
 public extension ACMOAICompletionsManager {
-    func create(request: ACMOAICompletionsRequest, onSuccess: CompletionsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Create completions based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAICompletionsRequest` Model of possible requests
+    ///
+    func create(request: ACMOAICompletionsRequest.Create, onSuccess: CompletionsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: CompletionsRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))

@@ -4,10 +4,16 @@
 
 import ACMNetworking
 
+/// Moderations manager for calling moderations endpoints of Open AI
 public final class ACMOAIModerationsManager: BaseAPIManager {}
 
 public extension ACMOAIModerationsManager {
-    func create(request: ACMOAIModerationsRequest, onSuccess: ModerationsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
+    /// Create moderations based on giving parameters and returns closure
+    ///
+    ///  - Parameters:
+    ///    - request: `ACMOAIModerationsRequest` Model of possible requests
+    ///
+    func create(request: ACMOAIModerationsRequest.Create, onSuccess: ModerationsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         var to = endpoint.set(path: ModerationsRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "input", value: request.input))
