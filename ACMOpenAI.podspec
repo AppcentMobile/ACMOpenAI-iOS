@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "ACMOpenAI"
-    spec.version      = "1.0.0"
+    spec.version      = "1.0.1"
     spec.summary      = "ACMOpenAI iOS Library"
     spec.description  = <<-DESC
             ACMOpenAI is a library that help developers to use Open AI API easily.
