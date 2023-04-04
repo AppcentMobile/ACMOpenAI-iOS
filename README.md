@@ -27,6 +27,7 @@ baseURL (String)(without http(s))
 isLogEnabled (Bool)
 timeout (Number)
 apiKey (String)
+organization (String|Optional)
 ```
 
 - Make request!
