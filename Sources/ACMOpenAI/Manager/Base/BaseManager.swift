@@ -28,5 +28,10 @@ public class BaseAPIManager: BaseManager {
 
         endpoint = ACMEndpoint()
             .add(authHeader: ACMAuthModel(type: .bearer, value: config.apiKey))
+
+        if let organization = config.organization {
+            endpoint = endpoint
+                .add(header: ACMHeaderModel(field: ACMOAIConstants.organizationHeader, value: organization))
+        }
     }
 }
