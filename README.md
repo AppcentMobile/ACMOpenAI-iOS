@@ -1,6 +1,6 @@
 # ACMOpenAI
 
-ACMOpenAI is a library that help developers to use Open AI API easily.
+ACMOpenAI is an unofficial library that help developers to use Open AI API easily.
 
 [![GitHub tag](https://img.shields.io/github/tag/AppcentMobile/ACMOpenAI-iOS?sort=semver&color=blue)](https://github.com/AppcentMobile/ACMOpenAI-iOS/releases/)
 [![License](https://img.shields.io/github/license/AppcentMobile/ACMOpenAI-iOS)](#license)
