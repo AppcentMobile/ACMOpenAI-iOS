@@ -33,5 +33,7 @@ public class BaseAPIManager: BaseManager {
             endpoint = endpoint
                 .add(header: ACMHeaderModel(field: ACMOAIConstants.organizationHeader, value: organization))
         }
+
+        endpoint = endpoint.add(header: ACMHeaderModel(field: ACMOAIConstants.contentTypeKey, value: ACMOAIConstants.contentTypeValue))
     }
 }
