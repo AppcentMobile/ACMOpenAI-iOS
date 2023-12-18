@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AppcentMobile/ACMNetworking.git",
       "state" : {
-        "revision" : "2c10143eb8f9b9e70b101e5153e80ca2c46b0b80",
-        "version" : "1.1.3"
+        "branch" : "main",
+        "revision" : "3537b4907f301dc60b5eb9c56d101c7995353ae7"
       }
     }
   ],

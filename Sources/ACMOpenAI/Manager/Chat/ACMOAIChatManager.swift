@@ -60,10 +60,20 @@ public extension ACMOAIChatManager {
             to = to.add(param: ACMBodyModel(key: "user", value: user))
         }
 
-        network.request(to: to.build()) { (response: ACMOAIChatResponse.Create) in
-            onSuccess?(response)
-        } onError: { error in
-            onError?(error)
+        let buildEndpoint = to.build()
+
+        if request.stream == true {
+            network.request(to: buildEndpoint) { (response: [ACMOAIChatResponse.Create]) in
+                onSuccess?(response)
+            } onError: { error in
+                onError?(error)
+            }
+        } else {
+            network.request(to: buildEndpoint) { (response: ACMOAIChatResponse.Create) in
+                onSuccess?([response])
+            } onError: { error in
+                onError?(error)
+            }
         }
     }
 }
