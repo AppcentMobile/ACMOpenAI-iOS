@@ -11,7 +11,7 @@ public extension ACMOAIChatRequest {
         /// model: required*
         public var model: String
         /// messages: required*
-        public var messages: [[String: String]]
+        public var messages: [ACMChatMessageModel]
         /// temperature: optional
         public var temperature: Double?
         /// top_p: optional
@@ -34,7 +34,7 @@ public extension ACMOAIChatRequest {
         public var user: String?
 
         /// Init function for creating request
-        public init(model: String, messages: [[String: String]], temperature: Double? = nil, top_p: Double? = nil, n: Int? = nil, stream: Bool? = nil, stop: [String]? = nil, max_tokens: Int? = nil, presence_penalty: Double? = nil, frequency_penalty: Double? = nil, logit_bias: [String: Int]? = nil, user: String? = nil) {
+        public init(model: String, messages: [ACMChatMessageModel], temperature: Double? = nil, top_p: Double? = nil, n: Int? = nil, stream: Bool? = nil, stop: [String]? = nil, max_tokens: Int? = nil, presence_penalty: Double? = nil, frequency_penalty: Double? = nil, logit_bias: [String: Int]? = nil, user: String? = nil) {
             self.model = model
             self.messages = messages
             self.temperature = temperature
