@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "ACMOpenAI",
+    platforms: [
+        .iOS(.v13), // Set the minimum iOS version here
+    ],
     products: [
         .library(
             name: "ACMOpenAI",
@@ -12,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppcentMobile/ACMNetworking.git", from: "1.1.3"),
+        .package(url: "https://github.com/AppcentMobile/ACMNetworking.git", branch: "main"),
     ],
     targets: [
         .target(
