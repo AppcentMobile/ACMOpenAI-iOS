@@ -8,7 +8,6 @@ import ACMNetworking
 public class ACMOAIChatManager: BaseAPIManager {}
 
 public extension ACMOAIChatManager {
-    #warning("BETA: https://platform.openai.com/docs/api-reference/chat")
     /// Create chat based on giving parameters and returns closure
     ///
     ///  - Parameters:

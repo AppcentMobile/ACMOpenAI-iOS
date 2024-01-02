@@ -8,7 +8,6 @@ import ACMNetworking
 public final class ACMOAIImagesManager: BaseAPIManager {}
 
 public extension ACMOAIImagesManager {
-    #warning("BETA: https://api.openai.com/v1/images/generations")
     /// Creates image based on giving parameters and returns closure
     ///
     ///  - Parameters:
@@ -44,7 +43,6 @@ public extension ACMOAIImagesManager {
 }
 
 public extension ACMOAIImagesManager {
-    #warning("BETA: https://api.openai.com/v1/images/edits")
     /// Creates edit image based on giving parameters and returns closure
     ///
     ///  - Parameters:
@@ -85,7 +83,6 @@ public extension ACMOAIImagesManager {
 }
 
 public extension ACMOAIImagesManager {
-    #warning("BETA: https://api.openai.com/v1/images/variations")
     /// Creates variation image based on giving parameters and returns closure
     ///
     ///  - Parameters:
