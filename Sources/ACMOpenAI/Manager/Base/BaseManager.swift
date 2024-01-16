@@ -23,7 +23,7 @@ public class BaseAPIManager: BaseManager {
     public required init() {
         super.init()
 
-        guard let config = ACMPlistUtils.shared
+        guard let config = network.plistUtils?
             .config(type: ACMOpenAIPlistModel.self) else { return }
 
         endpoint = ACMEndpoint()

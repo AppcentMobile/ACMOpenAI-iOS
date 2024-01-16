@@ -8,7 +8,6 @@ import ACMNetworking
 public class ACMOAIAudioManager: BaseAPIManager {}
 
 public extension ACMOAIAudioManager {
-    #warning("BETA: https://api.openai.com/v1/audio/transcriptions")
     /// Create transcriptions based on giving parameters and returns closure
     ///
     ///  - Parameters:
@@ -45,7 +44,6 @@ public extension ACMOAIAudioManager {
 }
 
 public extension ACMOAIAudioManager {
-    #warning("BETA: https://api.openai.com/v1/audio/translations")
     /// Create translations based on giving parameters and returns closure
     ///
     ///  - Parameters:
