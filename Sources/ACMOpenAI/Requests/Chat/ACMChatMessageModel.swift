@@ -5,7 +5,7 @@
 //  Created by burak on 18.12.2023.
 //
 
-import UIKit
+import Foundation
 
 public final class ACMChatMessageModel: Codable {
     public let role: String?
