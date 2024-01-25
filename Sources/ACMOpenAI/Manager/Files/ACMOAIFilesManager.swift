@@ -10,8 +10,8 @@ public class ACMOAIFilesManager: BaseAPIManager {}
 public extension ACMOAIFilesManager {
     /// Lists files based on giving parameters and returns closure
     func list(onSuccess: FilesCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: FilesRoute.list)
-            .set(method: .get)
+        guard let to = endpoint?.set(path: FilesRoute.list)
+            .set(method: .get) else { return }
 
         network.request(to: to.build()) { (response: ACMOAIFilesResponse.List) in
             onSuccess?(response)
@@ -28,10 +28,10 @@ public extension ACMOAIFilesManager {
     ///    - request: `ACMOAIFilesRequest.Upload` Model of possible requests
     ///
     func upload(request: ACMOAIFilesRequest.Upload, onSuccess: FilesCallback.Upload, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: FilesRoute.upload)
+        guard let to = endpoint?.set(path: FilesRoute.upload)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "file", value: request.file))
-            .add(param: ACMBodyModel(key: "purpose", value: request.purpose))
+            .add(param: ACMBodyModel(key: "purpose", value: request.purpose)) else { return }
 
         network.request(to: to.build()) { (response: ACMOAIFilesResponse.Upload) in
             onSuccess?(response)
@@ -48,8 +48,8 @@ public extension ACMOAIFilesManager {
     ///    - request: `ACMOAIFilesRequest.Delete` Model of possible requests
     ///
     func delete(request: ACMOAIFilesRequest.Delete, onSuccess: FilesCallback.Delete, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: String(format: FilesRoute.delete, request.file_id))
-            .set(method: .delete)
+        guard let to = endpoint?.set(path: String(format: FilesRoute.delete, request.file_id))
+            .set(method: .delete) else { return }
 
         network.request(to: to.build()) { (response: ACMOAIFilesResponse.Delete) in
             onSuccess?(response)
@@ -66,8 +66,8 @@ public extension ACMOAIFilesManager {
     ///    - request: `ACMOAIFilesRequest.Retrieve` Model of possible requests
     ///
     func retrieve(request: ACMOAIFilesRequest.Retrieve, onSuccess: FilesCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: String(format: FilesRoute.retrieve, request.file_id))
-            .set(method: .get)
+        guard let to = endpoint?.set(path: String(format: FilesRoute.retrieve, request.file_id))
+            .set(method: .get) else { return }
 
         network.request(to: to.build()) { (response: ACMOAIFilesResponse.Retrieve) in
             onSuccess?(response)
@@ -84,8 +84,8 @@ public extension ACMOAIFilesManager {
     ///    - request: `ACMOAIFilesRequest.RetrieveContent` Model of possible requests
     ///
     func retrieveContent(request: ACMOAIFilesRequest.RetrieveContent, onSuccess: FilesCallback.RetrieveContent, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: String(format: FilesRoute.retrieveContent, request.file_id))
-            .set(method: .get)
+        guard let to = endpoint?.set(path: String(format: FilesRoute.retrieveContent, request.file_id))
+            .set(method: .get) else { return }
 
         network.request(to: to.build()) { (response: String) in
             onSuccess?(response)

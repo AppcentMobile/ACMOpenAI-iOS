@@ -14,9 +14,9 @@ public extension ACMOAIImagesManager {
     ///    - request: `ACMOAIImagesCreateRequest` Model of possible requests
     ///
     func create(request: ACMOAIImagesRequest.Create, onSuccess: ImagesCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: ImagesRoute.create)
+        guard var to = endpoint?.set(path: ImagesRoute.create)
             .set(method: .post)
-            .add(param: ACMBodyModel(key: "prompt", value: request.prompt))
+            .add(param: ACMBodyModel(key: "prompt", value: request.prompt)) else { return }
 
         if let n = request.n {
             to = to.add(param: ACMBodyModel(key: "n", value: n))
@@ -49,10 +49,10 @@ public extension ACMOAIImagesManager {
     ///    - request: `ACMOAIImagesCreateEditRequest` Model of possible requests
     ///
     func createEdit(request: ACMOAIImagesRequest.CreateEdit, onSuccess: ImagesCallback.CreateEdit, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: ImagesRoute.createEdit)
+        guard var to = endpoint?.set(path: ImagesRoute.createEdit)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "image", value: request.image))
-            .add(param: ACMBodyModel(key: "prompt", value: request.prompt))
+            .add(param: ACMBodyModel(key: "prompt", value: request.prompt)) else { return }
 
         if let mask = request.mask {
             to = to.add(param: ACMBodyModel(key: "mask", value: mask))
@@ -74,7 +74,7 @@ public extension ACMOAIImagesManager {
             to = to.add(param: ACMBodyModel(key: "user", value: user))
         }
 
-        network.request(to: endpoint.build()) { (response: ACMOAIImagesResponse.CreateEdit) in
+        network.request(to: to.build()) { (response: ACMOAIImagesResponse.CreateEdit) in
             onSuccess?(response)
         } onError: { error in
             onError?(error)
@@ -89,9 +89,9 @@ public extension ACMOAIImagesManager {
     ///    - request: `ACMOAIImagesCreateVariationRequest` Model of possible requests
     ///
     func createVariation(request: ACMOAIImagesRequest.CreateVariation, onSuccess: ImagesCallback.CreateVariation, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: ImagesRoute.createVariation)
+        guard var to = endpoint?.set(path: ImagesRoute.createVariation)
             .set(method: .post)
-            .add(param: ACMBodyModel(key: "image", value: request.image))
+            .add(param: ACMBodyModel(key: "image", value: request.image)) else { return }
 
         if let n = request.n {
             to = to.add(param: ACMBodyModel(key: "n", value: n))
@@ -109,7 +109,7 @@ public extension ACMOAIImagesManager {
             to = to.add(param: ACMBodyModel(key: "user", value: user))
         }
 
-        network.request(to: endpoint.build()) { (response: ACMOAIImagesResponse.CreateVariation) in
+        network.request(to: to.build()) { (response: ACMOAIImagesResponse.CreateVariation) in
             onSuccess?(response)
         } onError: { error in
             onError?(error)

@@ -3,6 +3,7 @@
 //
 
 import ACMNetworking
+import Foundation
 
 /// Chat manager for calling audio endpoints of Open AI
 public class ACMOAIChatManager: BaseAPIManager {}
@@ -13,11 +14,14 @@ public extension ACMOAIChatManager {
     ///  - Parameters:
     ///    - request: `ACMOAIChatRequest` Model of possible requests
     ///
-    func create(request: ACMOAIChatRequest.Create, onSuccess: ChatCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: ChatRoute.create)
+    func create(request: ACMOAIChatRequest.Create, onSuccess: ChatCallback.Create = nil, onPartial: ChatCallback.Create = nil, onError: ACMGenericCallbacks.ErrorCallback) {
+
+        guard var to = endpoint?.set(path: ChatRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))
-            .add(param: ACMBodyModel(key: "messages", value: request.messages))
+            .add(param: ACMBodyModel(key: "messages", value: request.messages)) else {
+            return
+        }
 
         if let temperature = request.temperature {
             to = to.add(param: ACMBodyModel(key: "temperature", value: temperature))
@@ -62,14 +66,15 @@ public extension ACMOAIChatManager {
         let buildEndpoint = to.build()
 
         if request.stream == true {
-            network.request(to: buildEndpoint) { (response: [ACMOAIChatResponse.Create]) in
-                onSuccess?(response)
+            network.stream(to: buildEndpoint) { data in
+                let response = try? JSONDecoder().decode(ACMOAIChatResponse.Create.self, from: data)
+                onPartial?(response)
             } onError: { error in
                 onError?(error)
             }
         } else {
             network.request(to: buildEndpoint) { (response: ACMOAIChatResponse.Create) in
-                onSuccess?([response])
+                onSuccess?(response)
             } onError: { error in
                 onError?(error)
             }
