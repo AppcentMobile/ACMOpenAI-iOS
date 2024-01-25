@@ -14,10 +14,10 @@ public extension ACMOAIAudioManager {
     ///    - request: `ACMOAIAudioCreateRequest.Transcriptions` Model of possible requests
     ///
     func createTranscriptions(request: ACMOAIAudioCreateRequest.Transcriptions, onSuccess: AudioCallback.CreateTranscriptions, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: AudioRoute.Create.transcriptions)
+        guard var to = endpoint?.set(path: AudioRoute.Create.transcriptions)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "file", value: request.file))
-            .add(param: ACMBodyModel(key: "model", value: request.model))
+            .add(param: ACMBodyModel(key: "model", value: request.model)) else { return }
 
         if let prompt = request.prompt {
             to = to.add(param: ACMBodyModel(key: "prompt", value: prompt))
@@ -50,10 +50,10 @@ public extension ACMOAIAudioManager {
     ///    - request: `ACMOAIAudioCreateRequest.Transcriptions` Model of possible requests
     ///
     func createTranslations(request: ACMOAIAudioCreateRequest.Translations, onSuccess: AudioCallback.CreateTranslations, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: AudioRoute.Create.translations)
+        guard var to = endpoint?.set(path: AudioRoute.Create.translations)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "file", value: request.file))
-            .add(param: ACMBodyModel(key: "model", value: request.model))
+            .add(param: ACMBodyModel(key: "model", value: request.model)) else { return }
 
         if let prompt = request.prompt {
             to = to.add(param: ACMBodyModel(key: "prompt", value: prompt))

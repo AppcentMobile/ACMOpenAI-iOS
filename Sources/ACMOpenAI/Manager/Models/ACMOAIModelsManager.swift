@@ -10,8 +10,8 @@ public final class ACMOAIModelsManager: BaseAPIManager {}
 public extension ACMOAIModelsManager {
     /// Lists models based on giving parameters and returns closure
     func list(onSuccess: ModelsCallback.List, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: ModelsRoute.list)
-            .set(method: .get)
+        guard let to = endpoint?.set(path: ModelsRoute.list)
+            .set(method: .get) else { return }
 
         network.request(to: to.build()) { (response: ACMOAIModelsResponse.List) in
             onSuccess?(response)
@@ -28,8 +28,8 @@ public extension ACMOAIModelsManager {
     ///    - model: `String` Model of possible requests
     ///
     func retrieve(model: String, onSuccess: ModelsCallback.Retrieve, onError: ACMGenericCallbacks.ErrorCallback) {
-        let to = endpoint.set(path: ACMPathModel(path: ModelsRoute.retrieve, value: model))
-            .set(method: .get)
+        guard let to = endpoint?.set(path: ACMPathModel(path: ModelsRoute.retrieve, value: model))
+            .set(method: .get) else { return }
 
         network.request(to: to.build()) { (response: ACMOAIModelsResponse.Retrieve) in
             onSuccess?(response)

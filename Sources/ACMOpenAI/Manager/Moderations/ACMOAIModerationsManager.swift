@@ -14,9 +14,11 @@ public extension ACMOAIModerationsManager {
     ///    - request: `ACMOAIModerationsRequest` Model of possible requests
     ///
     func create(request: ACMOAIModerationsRequest.Create, onSuccess: ModerationsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: ModerationsRoute.create)
+        guard var to = endpoint?.set(path: ModerationsRoute.create)
             .set(method: .post)
-            .add(param: ACMBodyModel(key: "input", value: request.input))
+            .add(param: ACMBodyModel(key: "input", value: request.input)) else {
+            return
+        }
 
         if let model = request.model {
             to = to.add(param: ACMBodyModel(key: "model", value: model))

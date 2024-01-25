@@ -14,10 +14,10 @@ public extension ACMOAIEmbeddingsManager {
     ///    - request: `ACMOAIEmbeddingsRequest` Model of possible requests
     ///
     func create(request: ACMOAIEmbeddingsRequest.Create, onSuccess: EmbeddingsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
-        var to = endpoint.set(path: EmbeddingsRoute.create)
+        guard var to = endpoint?.set(path: EmbeddingsRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))
-            .add(param: ACMBodyModel(key: "input", value: request.input))
+            .add(param: ACMBodyModel(key: "input", value: request.input)) else { return }
 
         if let user = request.user {
             to = to.add(param: ACMBodyModel(key: "user", value: user))

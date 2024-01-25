@@ -23,11 +23,12 @@ public class BaseAPIManager: BaseManager {
     public required init() {
         super.init()
 
-        guard let config = network.plistUtils?
+        endpoint = network.getEndpoint()
+
+        guard let config = network.getPlistUtils()
             .config(type: ACMOpenAIPlistModel.self) else { return }
 
-        endpoint = ACMEndpoint()
-            .add(authHeader: ACMAuthModel(type: .bearer, value: config.apiKey))
+        endpoint = endpoint.add(authHeader: ACMAuthModel(type: .bearer, value: config.apiKey))
 
         if let organization = config.organization {
             endpoint = endpoint
