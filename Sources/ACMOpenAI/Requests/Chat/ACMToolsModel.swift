@@ -20,12 +20,16 @@ public struct ACMToolsModel: Codable {
 public struct ACMToolsFunctionModel: Codable {
     public let description: String?
     public let name: String
-    public let params: String?
+    public let parameters: String?
 
     public init(description: String? = nil, name: String, params: [String: Any]? = nil) {
         self.description = description
         self.name = name
-        self.params = String(describing: params)
+        if let params {
+            self.parameters = String(describing: params)
+        } else {
+            self.parameters = nil
+        }
     }
 }
 
@@ -45,8 +49,17 @@ public struct ACMToolChoiceModel: Codable {
 public struct ACMToolChoiceObjectModel: Codable {
     public var type: String
     public var function: ACMToolChoiceObjectFunctionModel
+
+    public init(type: String, function: ACMToolChoiceObjectFunctionModel) {
+        self.type = type
+        self.function = function
+    }
 }
 
 public struct ACMToolChoiceObjectFunctionModel: Codable {
     public var name: String
+
+    public init(name: String) {
+        self.name = name
+    }
 }
