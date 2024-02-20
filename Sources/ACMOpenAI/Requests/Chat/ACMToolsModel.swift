@@ -33,8 +33,11 @@ public struct ACMToolChoiceModel: Codable {
     public var strChoice: String?
     public var objChoice: ACMToolChoiceObjectModel?
 
-    public init(strChoice: String? = nil, objChoice: ACMToolChoiceObjectModel? = nil) {
+    public init(strChoice: String? = nil) {
         self.strChoice = strChoice
+    }
+
+    public init(objChoice: ACMToolChoiceObjectModel? = nil) {
         self.objChoice = objChoice
     }
 }
