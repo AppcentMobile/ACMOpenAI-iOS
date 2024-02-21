@@ -15,7 +15,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppcentMobile/ACMNetworking.git", exact: "1.2.0"),
+        .package(url: "https://github.com/AppcentMobile/ACMNetworking.git", exact: "1.2.3"),
     ],
     targets: [
         .target(
