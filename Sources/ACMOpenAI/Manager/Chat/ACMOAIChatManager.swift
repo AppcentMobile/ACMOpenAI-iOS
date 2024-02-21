@@ -68,7 +68,11 @@ public extension ACMOAIChatManager {
         }
 
         if let tool_choice = request.tool_choice {
-            to = to.add(param: ACMBodyModel(key: "tool_choice", value: tool_choice))
+            if let strChoice = tool_choice.strChoice {
+                to = to.add(param: ACMBodyModel(key: "tool_choice", value: strChoice))
+            } else if let objChoice = tool_choice.objChoice {
+                to = to.add(param: ACMBodyModel(key: "tool_choice", value: ACMToolChoiceObjectModel(type: objChoice.type, function: objChoice.function)))
+            }
         }
 
         let buildEndpoint = to.build()

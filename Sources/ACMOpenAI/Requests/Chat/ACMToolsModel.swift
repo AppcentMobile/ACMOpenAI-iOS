@@ -25,10 +25,10 @@ public struct ACMToolsFunctionModel: Codable {
     public init(description: String? = nil, name: String, params: [String: Any]? = nil) {
         self.description = description
         self.name = name
-        if let params {
-            self.parameters = String(describing: params)
+        if let params, let data = try? JSONSerialization.data(withJSONObject: params, options: []) {
+            parameters = String(data: data, encoding: .utf8)
         } else {
-            self.parameters = nil
+            parameters = nil
         }
     }
 }
