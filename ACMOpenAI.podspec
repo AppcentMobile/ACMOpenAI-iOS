@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
     spec.swift_version = '5.0'  
     spec.source       = { :git => "https://github.com/AppcentMobile/ACMOpenAI-iOS.git", :tag => "#{spec.version}" }
     spec.source_files  = "Sources/**/*.{h,m,swift}"
-    spec.dependency 'ACMNetworking', '~> 1.2.0'
+    spec.dependency 'ACMNetworking', '~> 1.2.3'
   end
