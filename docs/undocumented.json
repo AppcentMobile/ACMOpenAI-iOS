@@ -1,6 +1,166 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMChatMessageModel.swift",
+      "line": 10,
+      "symbol": "ACMChatMessageModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMChatMessageModel.swift",
+      "line": 11,
+      "symbol": "ACMChatMessageModel.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMChatMessageModel.swift",
+      "line": 12,
+      "symbol": "ACMChatMessageModel.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMChatMessageModel.swift",
+      "line": 20,
+      "symbol": "ACMChatMessageModel.init(role:content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 10,
+      "symbol": "ACMToolsModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 11,
+      "symbol": "ACMToolsModel.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 12,
+      "symbol": "ACMToolsModel.function",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 14,
+      "symbol": "ACMToolsModel.init(type:function:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 20,
+      "symbol": "ACMToolsFunctionModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 21,
+      "symbol": "ACMToolsFunctionModel.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 22,
+      "symbol": "ACMToolsFunctionModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 23,
+      "symbol": "ACMToolsFunctionModel.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 25,
+      "symbol": "ACMToolsFunctionModel.init(description:name:params:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 32,
+      "symbol": "ACMToolChoiceModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 33,
+      "symbol": "ACMToolChoiceModel.strChoice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 34,
+      "symbol": "ACMToolChoiceModel.objChoice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 36,
+      "symbol": "ACMToolChoiceModel.init(strChoice:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 40,
+      "symbol": "ACMToolChoiceModel.init(objChoice:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 45,
+      "symbol": "ACMToolChoiceObjectModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 46,
+      "symbol": "ACMToolChoiceObjectModel.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 47,
+      "symbol": "ACMToolChoiceObjectModel.function",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 50,
+      "symbol": "ACMToolChoiceObjectFunctionModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/burak/Desktop/ios-libs/ACMOAI/Sources/ACMOpenAI/Requests/Chat/ACMToolsModel.swift",
+      "line": 51,
+      "symbol": "ACMToolChoiceObjectFunctionModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/burak/Desktop/ios-libs/ACMOAI"
 }

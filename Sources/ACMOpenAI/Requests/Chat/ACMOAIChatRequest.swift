@@ -12,6 +12,10 @@ public extension ACMOAIChatRequest {
         public var model: String
         /// messages: required*
         public var messages: [ACMChatMessageModel]
+        /// tools
+        public var tools: [ACMToolsModel]?
+        /// tool choice
+        public var tool_choice: ACMToolChoiceModel?
         /// temperature: optional
         public var temperature: Double?
         /// top_p: optional
@@ -34,7 +38,7 @@ public extension ACMOAIChatRequest {
         public var user: String?
 
         /// Init function for creating request
-        public init(model: String, messages: [ACMChatMessageModel], temperature: Double? = nil, top_p: Double? = nil, n: Int? = nil, stream: Bool? = nil, stop: [String]? = nil, max_tokens: Int? = nil, presence_penalty: Double? = nil, frequency_penalty: Double? = nil, logit_bias: [String: Int]? = nil, user: String? = nil) {
+        public init(model: String, messages: [ACMChatMessageModel], tools: [ACMToolsModel]? = nil, tool_choice: ACMToolChoiceModel? = nil, temperature: Double? = nil, top_p: Double? = nil, n: Int? = nil, stream: Bool? = nil, stop: [String]? = nil, max_tokens: Int? = nil, presence_penalty: Double? = nil, frequency_penalty: Double? = nil, logit_bias: [String: Int]? = nil, user: String? = nil) {
             self.model = model
             self.messages = messages
             self.temperature = temperature
@@ -47,6 +51,8 @@ public extension ACMOAIChatRequest {
             self.frequency_penalty = frequency_penalty
             self.logit_bias = logit_bias
             self.user = user
+            self.tools = tools
+            self.tool_choice = tool_choice
         }
     }
 }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = "ACMOpenAI"
-    spec.version      = "1.0.2"
+    spec.version      = "1.0.8"
     spec.summary      = "ACMOpenAI iOS Library"
     spec.description  = <<-DESC
             ACMOpenAI is a library that help developers to use Open AI API easily.
@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
     spec.swift_version = '5.0'  
     spec.source       = { :git => "https://github.com/AppcentMobile/ACMOpenAI-iOS.git", :tag => "#{spec.version}" }
     spec.source_files  = "Sources/**/*.{h,m,swift}"
-    spec.dependency 'ACMNetworking', '~> 1.1.3'
+    spec.dependency 'ACMNetworking', '~> 1.2.3'
   end

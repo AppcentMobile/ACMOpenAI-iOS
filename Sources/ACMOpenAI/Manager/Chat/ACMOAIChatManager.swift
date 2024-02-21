@@ -15,11 +15,11 @@ public extension ACMOAIChatManager {
     ///    - request: `ACMOAIChatRequest` Model of possible requests
     ///
     func create(request: ACMOAIChatRequest.Create, onSuccess: ChatCallback.Create = nil, onPartial: ChatCallback.Create = nil, onError: ACMGenericCallbacks.ErrorCallback) {
-
         guard var to = endpoint?.set(path: ChatRoute.create)
             .set(method: .post)
             .add(param: ACMBodyModel(key: "model", value: request.model))
-            .add(param: ACMBodyModel(key: "messages", value: request.messages)) else {
+            .add(param: ACMBodyModel(key: "messages", value: request.messages))
+        else {
             return
         }
 
@@ -61,6 +61,18 @@ public extension ACMOAIChatManager {
 
         if let user = request.user {
             to = to.add(param: ACMBodyModel(key: "user", value: user))
+        }
+
+        if let tools = request.tools {
+            to = to.add(param: ACMBodyModel(key: "tools", value: tools))
+        }
+
+        if let tool_choice = request.tool_choice {
+            if let strChoice = tool_choice.strChoice {
+                to = to.add(param: ACMBodyModel(key: "tool_choice", value: strChoice))
+            } else if let objChoice = tool_choice.objChoice {
+                to = to.add(param: ACMBodyModel(key: "tool_choice", value: ACMToolChoiceObjectModel(type: objChoice.type, function: objChoice.function)))
+            }
         }
 
         let buildEndpoint = to.build()

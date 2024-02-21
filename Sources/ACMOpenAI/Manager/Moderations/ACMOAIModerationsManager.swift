@@ -16,7 +16,8 @@ public extension ACMOAIModerationsManager {
     func create(request: ACMOAIModerationsRequest.Create, onSuccess: ModerationsCallback.Create, onError: ACMGenericCallbacks.ErrorCallback) {
         guard var to = endpoint?.set(path: ModerationsRoute.create)
             .set(method: .post)
-            .add(param: ACMBodyModel(key: "input", value: request.input)) else {
+            .add(param: ACMBodyModel(key: "input", value: request.input))
+        else {
             return
         }
 
